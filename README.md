@@ -69,7 +69,7 @@ You can run the collection's test suites with the commands:
     ansible-test sanity -v --color
     ansible-test integration -v --color
 
-Note: To run integration tests, you must add an [`integration_config.yml`][ansible-integration-config] file with a valid TransIP API key (using variable `transip_api_key`).
+Note: To run integration tests, you must add an [`integration_config.yml`][ansible-integration-config] file with a valid TransIP API key (using variable `transip_api_key`). You can use `integration_config.yml.tpl` as a start.
 
 ## Release notes
 
