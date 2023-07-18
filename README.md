@@ -58,7 +58,7 @@ It's preferable to use content in this collection using their Fully Qualified Co
 
 ## Testing and Development
 
-If you want to develop new content for this collection or improve what's already here, the easiest way to work on the collection is to clone it into one of the configured [`COLLECTIONS_PATHS`][ansible-collections-paths], ans work on it there.
+If you want to develop new content for this collection or improve what's already here, the easiest way to work on the collection is to clone it into one of the configured [`COLLECTIONS_PATHS`][ansible-collections-paths], and work on it there. All modules support the `test_mode` argument which if `true` will add the `?test-1` query parameter to every transip request to perform the request in [test mode](https://api.transip.nl/rest/docs.html#header-test-mode).
 
 ## Testing with `ansible-test`
 
