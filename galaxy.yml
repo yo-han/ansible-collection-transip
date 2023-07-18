@@ -12,7 +12,7 @@ tags:
   - transip
   - cloud
 repository: https://github.com/yo-han/ansible-collection-transip
-#documentation: https://github.com/yo-han/ansible-collection-transip/tree/main/docs
+documentation: https://github.com/yo-han/ansible-collection-transip
 homepage: https://github.com/yo-han/ansible-collection-transip
 issues: https://github.com/yo-han/ansible-collection-transip/issues
 build_ignore:
