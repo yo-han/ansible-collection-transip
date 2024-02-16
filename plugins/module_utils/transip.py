@@ -83,6 +83,10 @@ class TransIPHelper(object):
             timeout=self.timeout
         )
 
+        # Catch empty response and show error
+        if resp is None:
+          self.module.fail_json(msg=info)
+            
         return Response(resp, info)
 
     def get(self, path, data=None):
